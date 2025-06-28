@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(rgba(355,355,355,0.7), rgba(255,255,255,0.7)), 
+                        url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: red;
+  padding: 5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  width: 400px;
+}
+
+.profile img {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  margin: 0.5rem 0;
+}
+
+.bio {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 10px 20px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+.kontak {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.hidden {
+  display: none;
+}
